@@ -1,0 +1,25 @@
+# Web Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.1
+pydantic>=2.7.4
+pydantic-settings>=2.1.0
+
+# LangChain & LangGraph
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-openai>=0.2.0
+langchain-anthropic>=0.3.0
+
+# Vector Database
+chromadb>=0.4.24
+
+# HTTP Client
+httpx>=0.26.0
+
+# Utils
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+
+# Test
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
